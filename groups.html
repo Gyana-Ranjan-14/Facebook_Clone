@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/264/000000/facebook-new.png" type="image/x-icon">
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- mobile responsive css -->
+    <link rel="stylesheet" href="mobile_responsiveness.css">
+    <title>Groups</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="/index.html"><img src="images/Facebook.png" class="logo"></a>
+            <ul>
+                <li>
+                    <a href="/index.html"><img src="images/Homeicon.png"></a>
+                </li>
+                <li>
+                    <a href="/groups.html"><img src="images/Groupicon.png"></a>
+                </li>
+                <li>
+                    <a href="/videos.html"><img src="images/video.png"></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user  online" onclick="settingsmenutoggle()">
+                <img src="images/profile.png">
+            </div>
+        </div>
+
+        <!-- dropdown menu in profile -->
+        <div class="setting-menu">
+
+            <!-- dark and white mode -->
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="setting-inner">
+                <div class="user-profile">
+                    <img src="images/profile.png">
+                    <div>
+                        <p>Gyana Ranjan</p>
+                        <a href="/profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png ">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Log Out<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left sidebar  -->
+        <div class="left-side groups">
+            <div class="imp-links">
+                <div class="group-header">
+                    <h2>Groups <img src="images/setting.png" class="group-setting"></h2>
+                </div>
+                <div class="search-box groupsearch">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="Search Groups">
+                </div>
+                <a href="#"><img src="images/news.png">Your Feed</a>
+                <a href="#"><img src="images/notification.png">Notifications</a>
+                <a href="#"><img src="images/group.png">Groups</a>
+                <a href="#"><img src="images/marketplace.png">Market Place</a>
+
+                <a class="new-gr" href="#"><img src="images/plus.png">Create a new Group</a>
+
+            </div>
+
+            <!-- shortcuts -->
+            <div class="shortcut-links">
+                <p>Groups You Joined</p>
+                <hr>
+                <a href="#"><img src="images/shortcut-1.png">Learn Html css</a>
+                <a href="#"><img src="images/shortcut-2.png">Ms Dhoni fan</a>
+                <a href="#"><img src="images/shortcut-3.png">Csk Fans</a>
+                <a href="#"><img src="images/shortcut-4.png">Virat Kholi</a>
+                <a href="#"><img src="images/shortcut-2.png">Virat Kholi</a>
+                <a href="#"><img src="images/shortcut-3.png">Virat Kholi</a>
+                <a href="#"><img src="images/shortcut-1.png">Virat Kholi</a>
+                <a href="#"><img src="images/shortcut-4.png">Virat Kholi</a>
+                <a href="#"><img src="images/shortcut-2.png">Virat Kholi</a>
+            </div>
+        </div>
+        <!-- main content -->
+        <div class="main-content">
+            <!-- start with story -->
+
+            <!-- for posting something -->
+
+            <!-- html where user see the feed or posts -->
+            <p class="post-write">Posts From Groups</p>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <span>June 1 2022,12.00AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                </p>
+                <img src="images/profile.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">30k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+        <div class="right-side">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>1</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Odisha,Jajpur</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Odisha, BBSR</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+
+        </div>
+
+        <!-- Script tag -->
+        <script src="script.js"></script>
+</body>
+
+</html>

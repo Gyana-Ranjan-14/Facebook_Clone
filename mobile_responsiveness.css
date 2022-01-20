@@ -1,0 +1,140 @@
+@media (max-width: 900px) {
+    .right-side {
+        display: none;
+    }
+    .left-side {
+        display: none;
+    }
+    nav {
+        flex-wrap: wrap;
+        height: 40px;
+    }
+    .search-box {
+        display: none;
+    }
+    .nav-left .logo {
+        width: 22px;
+        margin-right: 55px;
+    }
+    .nav-left ul li {
+        margin-left: -20px;
+    }
+    .nav-left ul li img {
+        width: 18px;
+        margin: 0 30px;
+    }
+    .nav-user {
+        margin-left: 23px;
+        margin-right: 0px;
+    }
+    .online::after {
+        content: "";
+        width: 3px;
+        height: 2px;
+        border: 1.5px solid #fff;
+        border-radius: 50%;
+        background: #41db51;
+        position: absolute;
+        margin-top: 22.5px;
+        top: 0;
+        right: 0;
+    }
+    .nav-user img {
+        width: 30px;
+    }
+    .add-post-links {
+        flex-wrap: wrap;
+        margin-left: 16px;
+    }
+    .add-post-links a {
+        margin-right: 16px;
+        font-size: 9px;
+    }
+    .add-post-links a img {
+        width: 16px;
+        margin-right: 16px;
+    }
+    .post-input-container {
+        padding-left: 0;
+    }
+    .main-content {
+        flex-basis: 100%;
+    }
+    .story {
+        margin-top: -23px;
+    }
+    .story img {
+        width: 20px;
+        border-width: 3px;
+    }
+    .activity-icons {
+        margin-left: 14px;
+        margin-top: 15px;
+    }
+    .activity-icons div img {
+        width: 15px;
+        margin-right: 7px;
+    }
+    .post-profile-icon img {
+        width: 15px;
+        margin-top: 15px;
+    }
+    .user-profile img {
+        width: 40px;
+    }
+    .user-profile p {
+        font-size: 13px;
+        margin-top: 3px;
+        margin-bottom: 1px;
+    }
+    i {
+        margin-top: 19px;
+        font-size: 12px;
+    }
+}
+
+
+/* profile page responsive */
+
+@media (max-width: 900px) {
+    .profile-container {
+        padding: 20px 5%;
+    }
+    .profile-details {
+        flex-wrap: wrap;
+    }
+    .pd-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .pd-right button {
+        margin-left: 106px;
+        margin-right: -84px;
+    }
+    .pd-row div h3 {
+        font-size: 18px;
+    }
+    .pd-right a {
+        display: none;
+    }
+    .pd-row img {
+        width: 95px;
+        margin-right: 20px;
+    }
+    .profile-info {
+        flex-wrap: wrap;
+    }
+    .info-col,
+    .post-col {
+        flex-basis: 100%;
+    }
+}
+
+
+/* videos page responsive ness */
+
+@media (max-width: 900px) {
+    iframe {
+        width: 98%;
+    }
+}

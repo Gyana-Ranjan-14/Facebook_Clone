@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/264/000000/facebook-new.png" type="image/x-icon">
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- mobile responsive css -->
+    <link rel="stylesheet" href="mobile_responsiveness.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="/index.html"><img src="images/Facebook.png" class="logo"></a>
+            <ul>
+                <li>
+                    <a href="/index.html"><img src="images/Homeicon.png"></a>
+                </li>
+                <li>
+                    <a href="/groups.html"><img src="images/Groupicon.png"></a>
+                </li>
+                <li>
+                    <a href="/videos.html"></a><img src="images/video.png"></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user  online" onclick="settingsmenutoggle()">
+                <img src="images/profile.png">
+            </div>
+        </div>
+
+        <!-- dropdown menu in profile -->
+        <div class="setting-menu">
+
+            <!-- dark and white mode -->
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="setting-inner">
+                <div class="user-profile">
+                    <img src="images/profile.png">
+                    <div>
+                        <p>Gyana Ranjan</p>
+                        <a href="/profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png ">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Log Out<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- profile page -->
+    <div class="profile-container">
+        <img src="images/post-4.jpg" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png">
+                    <div>
+                        <h3>Gyana Ranjan</h3>
+                        <p>560 Friends 30 Mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png"> Friend</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text"> Cosistency is the key of Success<img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png"> Software Engineer</li>
+                        <li><img src="images/profile-study.png">Studied at Cv Raman</li>
+                        <li><img src="images/profile-study.png">Went to Mahamayee School</li>
+                        <li><img src="images/profile-home.png">Lives in Jajpur</li>
+                        <li><img src="images/profile-location.png">From Odisha, India</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/post-1.jpg"></div>
+                        <div><img src="images/post-2.jpg"></div>
+                        <div><img src="images/post-3.jpg"></div>
+                        <div><img src="images/post-5.jpg"></div>
+                        <div><img src="images/post-3.jpg"></div>
+                        <div><img src="images/post-1.jpg"></div>
+
+                    </div>
+                </div>
+
+                <!-- friends -->
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 Mutual)</p>
+                    <div class="friend-box">
+                        <div><img src="images/member-1.png">
+                            <p>Satyam sai</p>
+                        </div>
+                        <div><img src="images/member-2.png">
+                            <p>Suvam sai</p>
+                        </div>
+                        <div><img src="images/member-3.png">
+                            <p>Gyana Ranjan</p>
+                        </div>
+                        <div><img src="images/member-4.png">
+                            <p>Biswa </p>
+                        </div>
+                        <div><img src="images/member-5.png">
+                            <p>Bibhu prasad</p>
+                        </div>
+                        <div><img src="images/member-6.png">
+                            <p>Jyoti Nayak</p>
+                        </div>
+                        <div><img src="images/member-7.png">
+                            <p>Liku barik</p>
+                        </div>
+                        <div><img src="images/member-8.png">
+                            <p>Gudu Barik</p>
+                        </div>
+                        <div><img src="images/member-9.png">
+                            <p>Ludu sai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-col">
+                <div class="writepost-container">
+                    <div class="user-profile">
+                        <img src="images/profile.png">
+                        <div>
+                            <p>Gyana Ranjan</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <!-- html for post in facebook -->
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on Your mind Gyana"></textarea>
+
+                        <divv class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video</a>
+                            <a href="#"><img src="images/photo.png">Phto/Video</a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                        </divv>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile.png">
+                            <div>
+                                <p>Gyana Ranjan</p>
+                                <span>June 1 2022,12.00AM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Every Things Happen In Life For a Reason <a href="#">#Life</a><a href="#">#Ram</a>
+                    </p>
+                    <img src="images/profile.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">10k</div>
+                            <div><img src="images/comments.png">30k</div>
+                            <div><img src="images/share.png">100</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright html-->
+    <div class="footer">
+        <p>Copyright &copy; 2022 - Gyana Ranjan Barik</p>
+    </div>
+
+    <!-- java script link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
