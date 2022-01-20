@@ -236,12 +236,7 @@ nav {
     width: fit-content;
 }
 
-.imp-links :hover {
-    border-radius: 5px;
-    width: 60%;
-    background: #ddddddcb;
-    transition: ease-in-out 0.5s;
-}
+
 
 .imp-links a img {
     width: 29px;
