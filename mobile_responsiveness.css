@@ -21,7 +21,7 @@
     }
     .nav-left ul li img {
         width: 18px;
-        margin: 0 30px;
+        margin: 0 25px;
     }
     .nav-user {
         margin-left: 23px;
@@ -47,12 +47,12 @@
         margin-left: 16px;
     }
     .add-post-links a {
-        margin-right: 16px;
+        margin-right: 5px;
         font-size: 9px;
     }
     .add-post-links a img {
         width: 16px;
-        margin-right: 4px;
+        margin-right: 8px;
     }
     .post-input-container {
         padding-left: 0;
